@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "wakanow-7d8bc": {
+      "hosting": {
+        "wakanow-signup": [
+          "wakanow-7d8bc"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "wakanow-7d8bc"
+  }
+}

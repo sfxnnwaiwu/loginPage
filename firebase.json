@@ -1,0 +1,9 @@
+{
+  "hosting": [
+    {
+      "target": "wakanow-signup",
+      "source": ".",
+      "frameworksBackend": {}
+    }
+  ]
+}

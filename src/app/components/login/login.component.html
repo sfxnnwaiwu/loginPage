@@ -1,0 +1,23 @@
+<div class="login-page">
+    <div class="form">
+        @if(isLogin()) {
+        <form class="login-form">
+            <input type="text" name="email" [(ngModel)]="loginObject.email" placeholder="Email" required/>
+            <input type="password" name="password" [(ngModel)]="loginObject.password" placeholder="Password" required/>
+            <button (click)="authenticateUser()">login</button>
+            <p class="message">Not registered? <a (click)="toggleForm('signup')">Create an account</a></p>
+        </form>
+        }
+        @else {
+        <form class="register-form">
+            <input type="text" name="username" [(ngModel)]="registerObject.userName" placeholder="User Name" required/>
+            <input type="text" name="firstName" [(ngModel)]="registerObject.firstName" placeholder="First Name" required/>
+            <input type="text" name="lastName" [(ngModel)]="registerObject.lastName" placeholder="Last Name" required/>
+            <input type="text" name="sex" [(ngModel)]="registerObject.sex" placeholder="Sex" required/>
+            <input type="text" name="email" [(ngModel)]="registerObject.email" placeholder="Email Address" required/>
+            <button (click)="createUser()">create</button>
+            <p class="message">Already registered? <a (click)="toggleForm('login')">Sign In</a></p>
+        </form>
+        }
+    </div>
+</div>
