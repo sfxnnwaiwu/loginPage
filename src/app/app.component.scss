@@ -1,0 +1,23 @@
+nav {
+	display: flex;
+	background-color: rgba(21, 19, 19, 0.504);
+	padding: 0px;
+	justify-content: center;
+	z-index: 1;
+	backdrop-filter: blur(
+		8px
+	);
+	border-radius: 0px 0px 0px 0px;
+	border-top: none;
+	// margin-left: 50px;
+	// margin-right: 50px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+	box-shadow: 1px 10px 10px rgba(0, 20, 50, 0.1);
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	margin: 10px;
+    cursor: pointer;
+}
