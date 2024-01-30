@@ -25,3 +25,25 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+Default Admin Information
+
+email: daniel.desmond@reqres.in
+password: loveme.
+
+What I was able to do:
+
+1) I created a db using firestore and connected same to the application
+
+2) I am able to successfully perform CRUD operation on users data in the db
+
+3) I created the login and signup pages
+
+4) I implemented the logic to handle the routing, and validations
+
+
+ISSUE Encountered
+
+Deployment to Netlify was not successful
+
+The App can be run using ng serve or npm run start
