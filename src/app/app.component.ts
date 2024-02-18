@@ -31,4 +31,8 @@ export class AppComponent implements OnInit {
         this.shareService.updateUserAuthentication(false);
         this.router.navigateByUrl('landing')
     }
+
+    profile() {
+        this.router.navigateByUrl('profile')
+    }
 }
